@@ -7,7 +7,7 @@ Last assignment for 180a -- a whole new way of looking at code design
 
 Checkers is a two-person board game played on an 8x8 game board (same as chess board). Each player places their 12 pieces (usually red vs black) on the board on alternating dark squares in the three rows nearest to themselves. (See the following picture).
 
-<img src="./checkers.png" width="250"/>
+![Image](checkers.png)
 
 - At the start of the game, all pieces are "pawns", and can only move forward by 1 diagonal space at a time (on dark squares) toward the opponent's side of the board.
 - If a piece player's piece is directly adjacent to an opponent's piece, it _may_ be able to "capture" the opponent's piece by jumping. 
