@@ -27,6 +27,16 @@ public:
   virtual bool move(SFPlayer *aPlayer, SFLocation aPieceLocation, SFLocation aDest)=0;
 
   virtual bool jump(SFPlayer *aPlayer, SFLocation aPieceLocation, SFLocation aDest)=0;
+  
+  virtual bool jump(SFPlayer *aPlayer, SFLocation aPieceLocation, SFLocation aDest1, SFLocation aDest2)=0;
+  
+  virtual bool jump(SFPlayer *aPlayer, SFLocation aPieceLocation, SFLocation aDest1, SFLocation aDest2,
+                    SFLocation aDest3)=0;
+  
+  virtual bool jump(SFPlayer *aPlayer, SFLocation aPieceLocation, SFLocation aDest1, SFLocation aDest2,
+                    SFLocation aDest3, SFLocation aDest4)=0;
+  
+  
 };
 
 #endif /* SFGame_hpp */
